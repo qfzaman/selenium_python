@@ -17,7 +17,7 @@ Hello! This was a practice automation project using Selenium-Python.
 
 1. Download and Install Python
 2. Open the project in VS Code
-3. Instull Selenium by running one of the following command in cmd
+3. Install Selenium by running one of the following command in cmd
     1. pip install selenium
     2. pip3 install selenium
-4. Run the suite by executing the suite.py script
+4. Run the suite by executing the "suite.py" script
