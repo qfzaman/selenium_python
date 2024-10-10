@@ -3,9 +3,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
-import os
 
-service = Service(executable_path=os.path.abspath("../chromedriver.exe"))
+service = Service(executable_path="../chromedriver")
 driver = webdriver.Chrome(service=service)
 
 class AirCanadaTest:
