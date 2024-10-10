@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-service = Service(executable_path="chromedriver.exe")
+service = Service(executable_path="/chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 class AirCanadaTest:
